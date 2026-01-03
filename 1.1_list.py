@@ -1,0 +1,7 @@
+place=('leptop',24,5.23,'mouse','key board',100,'bhavnagar','sardarnagar',true,none)
+print(place)
+print(place[0])
+print(place[0:5])
+print(place[5:])
+print(place*2)
+print(place[1:5])
