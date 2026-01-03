@@ -1,0 +1,7 @@
+place=('mount abu','jodhapur','jaipur','kshamir','ladakh','manali','udaipur','goa','agra','kerala')
+print(place)
+print(place[0])
+print(place[0:5])
+print(place[5:])
+print(place*2)
+print(place[1:5])
