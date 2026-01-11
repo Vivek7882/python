@@ -1,0 +1,8 @@
+#Create a list and find the second largest number using sorting.
+num=[2,4,5,4,1,5,6,7,8,9]
+
+num.sort()
+num.reverse()
+
+print(num[1])
+
