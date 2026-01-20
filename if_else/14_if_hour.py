@@ -10,11 +10,12 @@
 
 hour=int(input("enter hour:"))
 
-if hour>12:
+if hour>12 and hour<=24:
     print("hour is",(hour-12),"PM")
 
 if hour<=12:
     print("hour is",hour,"AM")
 
 if hour>24:
+
     print("envalid hour")
