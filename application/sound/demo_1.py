@@ -15,7 +15,7 @@ elif sign=='Taurus':
 elif sign=='Gemini':
     url ="https://www.divyabhaskar.co.in/rashifal/16/today/"
 elif sign=='Cancer':
-    url ="https://www.divyabhaskar.co.in/rashifal/16/today/"
+    url ="https://www.divyabhaskar.co.in/rashifal/19/today/"
 elif sign=='Leo':
     url ="https://www.divyabhaskar.co.in/rashifal/17/today/"
 elif sign=='Virgo':
@@ -67,4 +67,5 @@ try:
         print(response.text)                           # see error message from server
 
 except requests.exceptions.RequestException as e:
+
     print(f"Request failed: {e}")
