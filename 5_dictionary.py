@@ -31,4 +31,5 @@ my_details['pincode']=364001
 print(my_details)
 
 my_details['destination']=('Paris','Dubai','Maldives','mount abu','rajesthan')
+
 print(my_details)
